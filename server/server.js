@@ -29,4 +29,4 @@ app.get("/", (req, res) => res.send("API is Working."));
 app.use("/api/auth", authRoutes);
 app.use("/api/user", userRoutes);
 
-app.listen(port, () => console.log(`Server started on PORT:${port}`));
+ 
