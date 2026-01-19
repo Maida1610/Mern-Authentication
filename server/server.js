@@ -17,8 +17,7 @@ app.use(cookieParser());
 app.use(
   cors({
     origin: [
-      "https://mern-authentication-66zg.vercel.app",
-      "https://mern-authentication-66zg-c6946achq-maidas-projects-455c8012.vercel.app",
+      "https://mern-authentication-66zg.vercel.app
     ],
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     credentials: true,
